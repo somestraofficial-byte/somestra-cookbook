@@ -7,7 +7,7 @@
   <meta name="description" content="SOMESTRA Healthy Cookbook - 30 เมนูอาหารคลีน" />
   <meta property="og:title" content="SOMESTRA Healthy Cookbook" />
   <meta property="og:description" content="30 เมนูอาหารคลีน อร่อยง่าย ได้ประโยชน์ ครบทุกสารอาหาร" />
-  <meta property="og:image" content="pages/page-01.jpg" />
+  <meta property="og:image" content="page-01.jpg" />
   <title>SOMESTRA Healthy Cookbook</title>
   <style>
     :root{
@@ -226,7 +226,7 @@
   const thumbs = document.getElementById('thumbs');
   const loader = document.getElementById('loader');
 
-  const src = n => `pages/page-${String(n).padStart(2,'0')}.jpg`;
+  const src = n => `page-${String(n).padStart(2,'0')}.jpg`;
   const makePage = (n, side='right') => {
     const el = document.createElement('div');
     el.className = `page ${side}`;
